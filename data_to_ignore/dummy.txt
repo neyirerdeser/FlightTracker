@@ -1,3 +1,1 @@
-some dummy text
-
-more text
+Add more dummy texts, see that it doesn't prompt git adds!

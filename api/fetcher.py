@@ -25,9 +25,8 @@ def tracks_accessor():
     # BUT this is de-activated :(
 
 def flights_accessor():
-    # Go through Doc API examples
     url = f"{ROOT_URL}/flights/all?begin=1641142800&end=1641148800"
     r = requests.get(url)
     if not r.ok:
         raise RuntimeError(r.json())
-    print(r.json())
+    return r.json()
