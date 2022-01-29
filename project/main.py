@@ -25,8 +25,10 @@ def main_wrapper():
     #4. Finish API fetcher. Also add some data folders in gitignore. Like data_to_ignore (with sample example) Also utils example
 
     #5. Need to introduce fixed dataset (link). Adding data_ignore to env
-    flight_list_fixed = aggregate.fixed_dataset()
+    # flight_list_fixed = aggregate.fixed_dataset()
 
+
+    flight_list_formed = aggregate.formed_dataset(start_time="2022/01/02, 12:00:00", end_time="2022/01/02, 16:00:00")
     #6.
     print("This is the end of our python project")
 
