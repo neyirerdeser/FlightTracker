@@ -1,13 +1,16 @@
 ### Type
 - [ ] New feature
 - [ ] Refactoring
-- [ ] Bug fix
+- [ ] Bug Fix
 - [ ] Testing
+- [ ] Miscellaneous
+
 ### Description
-_explain in a few lines what you're trying to do_
+_Explain in a few lines how and what this PR is trying to achieve as well as what changed_
 
 ### How to test
-_describe how the reviewer can test the PR_
+_Describe how the reviewers can test this PR_
 
-### Additional notes
-_any additional notes_
+### Additional Notes
+__Add any additional notes for the reviewers_
+
